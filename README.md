@@ -54,8 +54,7 @@ test_search_movies_top_n (tests.test_movie_search.TestMovieSearch.test_search_mo
 Test if search_movies returns the correct number of results. ... ok
 
 ----------------------------------------------------------------------
-Ran 4 tests in 3.348s
-
+Ran 4 tests in 3.348s 
 OK
 ---
 
@@ -68,7 +67,6 @@ from movie_search_solution import search_movies
 
 results = search_movies("spy thriller in Paris", top_n=5)
 print(results)
-```
 
  output:
 
@@ -76,5 +74,8 @@ print(results)
 0         Spy Movie  A spy navigates intrigue in Paris to stop a te...    0.769684
 1  Romance in Paris  A couple falls in love in Paris under romantic...    0.388030
 2      Action Flick  A high-octane chase through New York with expl...    0.256777
+```
+
+
 
 
